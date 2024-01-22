@@ -1,19 +1,36 @@
 //
-//  ViewController.swift
+//  CardSelectionVC.swift
 //  CardWorkout
 //
-//  Created by РОМ on 21.01.2024.
+//  Created by РОМ on 22.01.2024.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class CardSelectionVC: UIViewController {
 
+    @IBOutlet var cardImageView: UIImageView!
+        
+
+        
+    @IBOutlet var buttons: [UIButton]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        for button in buttons {
+            button.layer.cornerRadius = 8;
+        }
     }
 
+        
+    @IBAction func stopButtonTapped(_ sender: UIButton) {
+    
+    }
 
+    @IBAction func restartButtonTapped(_ sender: UIButton) {
+    }
+    @IBAction func rulesButtonTapped(_ sender: UIButton) {
+    }
+    
 }
-
