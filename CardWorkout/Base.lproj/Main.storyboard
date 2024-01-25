@@ -31,7 +31,7 @@
                                     <constraint firstAttribute="height" constant="50" id="sTR-yn-JA6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
-                                <state key="normal" title="Start!">
+                                <state key="normal" title="Stop!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -65,7 +65,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oPU-Am-EaK"/>
                                     <segue destination="7BE-rL-C1u" kind="presentation" id="U3I-fV-IuV"/>
                                 </connections>
                             </button>
